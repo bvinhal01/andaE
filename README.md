@@ -19,6 +19,7 @@ O software funciona como um guia de bolso para o passageiro, permitindo desde a 
     *   Modo de **Alto Contraste** para usuários com baixa visão.
     *   Ajuste dinâmico de **escala de fonte**.
 *   **Segurança e Login:** Sistema de acesso restrito para preservação das preferências do usuário (Favoritos e Histórico).
+    *   Usuário e senha de testes
 
 ---
 
