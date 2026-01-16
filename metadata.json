@@ -1,0 +1,7 @@
+{
+  "name": "andaê",
+  "description": "Aplicativo inteligente para consulta de horários e itinerários de ônibus da Região Metropolitana de Belo Horizonte (RMBH), com suporte a linhas simples e compostas.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
