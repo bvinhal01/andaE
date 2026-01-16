@@ -1,6 +1,6 @@
-# 🚌 andaÊ — Mobilidade Inteligente RMBH
+# 🚌 andaÊ — Mobilidade Inteligente
 
-O **andaÊ** é uma plataforma inovadora de auxílio à mobilidade urbana, focada especificamente nos desafios de transporte da **Região Metropolitana de Belo Horizonte (RMBH)**. O projeto nasceu da necessidade de unificar informações fragmentadas sobre o transporte coletivo (ônibus municipais, metropolitanos e metrô) em uma interface única, moderna e acessível.
+O **andaÊ** é uma plataforma inovadora de auxílio à mobilidade urbana, focada especificamente nos desafios de transporte da **Região Metropolitana de Belo Horizonte**. O projeto nasceu da necessidade de unificar informações fragmentadas sobre o transporte coletivo (ônibus municipais, metropolitanos e metrô) em uma interface única, moderna e acessível.
 
 O software funciona como um guia de bolso para o passageiro, permitindo desde a consulta rápida de horários até o planejamento complexo de rotas intermunicipais utilizando inteligência artificial.
 
