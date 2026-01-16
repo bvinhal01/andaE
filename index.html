@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andaê - Mobilidade RMBH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              darkBg: '#121212',
+              darkSurface: '#1e1e1e'
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+          --font-multiplier: 1;
+        }
+        body { 
+          font-family: 'Inter', sans-serif; 
+          transition: background-color 0.3s ease, font-size 0.2s ease; 
+          font-size: calc(16px * var(--font-multiplier));
+        }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(8px); }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        /* Modo Escuro */
+        .dark body { background-color: #121212; color: #f3f4f6; }
+        
+        /* Alto Contraste */
+        .high-contrast body {
+          background-color: #000 !important;
+          color: #fff !important;
+        }
+        .high-contrast .bg-white, 
+        .high-contrast .bg-gray-50, 
+        .high-contrast .bg-blue-50,
+        .high-contrast .bg-zinc-900 {
+          background-color: #000 !important;
+          border: 2px solid #fff !important;
+        }
+        .high-contrast .text-gray-900,
+        .high-contrast .text-gray-400,
+        .high-contrast .text-blue-600 {
+          color: #fff !important;
+        }
+        .high-contrast .bg-blue-600 {
+          background-color: #fff !important;
+          color: #000 !important;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <div id="root"></div>
+</body>
+</html>
